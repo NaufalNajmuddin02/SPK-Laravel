@@ -234,7 +234,7 @@
                 <th scope="row">Action</th>
                 <td>
                   <a href="/dashboard/final-ranking/{{ $criteria_analysis->id }}" class="btn btn-success">
-                    See Tourism Ranking
+                    See Rental Motor Ranking
                   </a>
                 </td>
               @endif

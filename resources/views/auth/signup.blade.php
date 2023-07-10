@@ -5,7 +5,7 @@
     <form action="/signup" method="POST">
       @csrf
 
-      <img class="mb-4" src="/assets/img/palmtree-silhouette.svg" alt="Palm Tree" width="72" height="57">
+      <img class="mb-4" src="https://webstockreview.net/images/clipart-bike-classic-15.png" alt="Motor Hitam" width="72" height="57">
       <h1 class="h3 fw-normal">Sign Up</h1>
       <small class="text-center d-block mb-3">it's quite easy</small>
 
@@ -66,7 +66,7 @@
       </div>
 
       <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
-      <p class="mt-3 mb-3 text-muted">&copy; SPK Objek Wisata {{ now()->year }}</p>
+      <p class="mt-3 mb-3 text-muted">&copy; SPK Pemilihan Rental Motor {{ now()->year }}</p>
     </form>
   </main>
 @endsection
